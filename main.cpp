@@ -132,6 +132,9 @@ public:
         }
     }
 
+
+
+    /////////
     void insert_after(Node<Elem>* node, const Elem& elem) {
         assert(node);
         if (!node->next_) {
