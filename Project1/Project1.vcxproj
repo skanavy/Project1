@@ -143,7 +143,11 @@
     <ClCompile Include="..\pasha_lib.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\dual_linked_list.hpp" />
+    <ClInclude Include="..\linked_list.hpp" />
     <ClInclude Include="..\pasha_lib.hpp" />
+    <ClInclude Include="..\queue.h" />
+    <ClInclude Include="..\stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
